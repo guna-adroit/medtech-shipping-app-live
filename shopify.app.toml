@@ -1,7 +1,7 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "a149335b37559dd9593ebce0a1bee0c2"
-application_url = "https://example.com"
+application_url = "https://medtech-shipping-app-live.vercel.app"
 embedded = true
 name = "Medtech Shipping Rates App"
 
@@ -45,8 +45,7 @@ api_version = "2026-07"
   topics = [ "app/scopes_update" ]
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://medtech-shipping-app-live.vercel.app/api/auth" ]
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
